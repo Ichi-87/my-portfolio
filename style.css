@@ -1,0 +1,256 @@
+body {
+  background-color: #fffad2;
+}
+
+h1 {
+  color: red;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 75px;
+  height: 100px;
+  text-align: center;
+}
+h2 {
+  color: black;
+  font-size: 50px;
+  height: auto;
+  text-align: center;
+}
+
+/* ボタン本体 */
+.center1 {
+  text-align: center;
+}
+
+.btn1 {
+  position: relative;
+  display: inline-block;
+  background-color: aquamarine;
+  border-radius: 10px; /* 角丸をつける */
+  width: 200px; /* 横幅 */
+  height: 60px; /* 縦幅 */
+  line-height: 60px; /* 行の高さ(heightと同じ値にする) */
+  text-decoration: none; /* aタグのアンダーラインを消す */
+  overflow: hidden; /* はみ出し部分を隠す */
+  cursor: pointer; /* カーソルをポインターにする */
+}
+
+/* ボタンのテキスト */
+.btn__text1 {
+  position: absolute;
+  left: 0;
+  display: block;
+  height: 100%; /* 縦幅をボタンと同じにする */
+  width: 100%; /* 横幅をボタンと同じにする */
+  color: #fff; /* 文字色 */
+  font-size: 16px; /* 文字サイズ */
+  font-weight: bold; /* 文字の太さ */
+  text-align: center; /* テキストを中央揃え */
+  transition: all 0.3s; /* アニメーション実行時間 */
+}
+
+/* ボタンのテキスト(デフォルトのテキスト) */
+.btn__text1:nth-child(1) {
+  top: 0;
+}
+
+/* ボタンのテキスト(隠れているテキスト) */
+.btn__text1:nth-child(2) {
+  top: -100%;
+}
+
+/* ボタンホバーアクション */
+.btn1:hover .btn__text1:nth-child(1) {
+  top: 100%;
+}
+
+.btn1:hover .btn__text1:nth-child(2) {
+  top: 0;
+}
+
+.center2 {
+  text-align: center;
+}
+
+.btn2 {
+  position: relative;
+  display: inline-block;
+  background-color: aquamarine;
+  border-radius: 10px; /* 角丸をつける */
+  width: 200px; /* 横幅 */
+  height: 60px; /* 縦幅 */
+  line-height: 60px; /* 行の高さ(heightと同じ値にする) */
+  text-decoration: none; /* aタグのアンダーラインを消す */
+  overflow: hidden; /* はみ出し部分を隠す */
+  cursor: pointer; /* カーソルをポインターにする */
+}
+
+/* ボタンのテキスト */
+.btn__text2 {
+  position: absolute;
+  left: 0;
+  display: block;
+  height: 100%; /* 縦幅をボタンと同じにする */
+  width: 100%; /* 横幅をボタンと同じにする */
+  color: #fff; /* 文字色 */
+  font-size: 16px; /* 文字サイズ */
+  font-weight: bold; /* 文字の太さ */
+  text-align: center; /* テキストを中央揃え */
+  transition: all 0.3s; /* アニメーション実行時間 */
+}
+
+/* ボタンのテキスト(デフォルトのテキスト) */
+.btn__text2:nth-child(1) {
+  top: 0;
+}
+
+/* ボタンのテキスト(隠れているテキスト) */
+.btn__text2:nth-child(2) {
+  top: -100%;
+}
+
+/* ボタンホバーアクション */
+.btn2:hover .btn__text2:nth-child(1) {
+  top: 100%;
+}
+
+.btn2:hover .btn__text2:nth-child(2) {
+  top: 0;
+}
+
+.center3 {
+  text-align: center;
+}
+
+.btn3 {
+  position: relative;
+  display: inline-block;
+  background-color: aquamarine;
+  border-radius: 10px; /* 角丸をつける */
+  width: 200px; /* 横幅 */
+  height: 60px; /* 縦幅 */
+  line-height: 60px; /* 行の高さ(heightと同じ値にする) */
+  text-decoration: none; /* aタグのアンダーラインを消す */
+  overflow: hidden; /* はみ出し部分を隠す */
+  cursor: pointer; /* カーソルをポインターにする */
+}
+
+/* ボタンのテキスト */
+.btn__text3 {
+  position: absolute;
+  left: 0;
+  display: block;
+  height: 100%; /* 縦幅をボタンと同じにする */
+  width: 100%; /* 横幅をボタンと同じにする */
+  color: #fff; /* 文字色 */
+  font-size: 16px; /* 文字サイズ */
+  font-weight: bold; /* 文字の太さ */
+  text-align: center; /* テキストを中央揃え */
+  transition: all 0.3s; /* アニメーション実行時間 */
+}
+
+/* ボタンのテキスト(デフォルトのテキスト) */
+.btn__text3:nth-child(1) {
+  top: 0;
+}
+
+/* ボタンのテキスト(隠れているテキスト) */
+.btn__text3:nth-child(2) {
+  top: -100%;
+}
+
+/* ボタンホバーアクション */
+.btn3:hover .btn__text3:nth-child(1) {
+  top: 100%;
+}
+
+.btn3:hover .btn__text3:nth-child(2) {
+  top: 0;
+}
+
+.center4 {
+  text-align: center;
+}
+
+.btn4 {
+  position: relative;
+  display: inline-block;
+  background-color: aquamarine;
+  border-radius: 10px; /* 角丸をつける */
+  width: 200px; /* 横幅 */
+  height: 60px; /* 縦幅 */
+  line-height: 60px; /* 行の高さ(heightと同じ値にする) */
+  text-decoration: none; /* aタグのアンダーラインを消す */
+  overflow: hidden; /* はみ出し部分を隠す */
+  cursor: pointer; /* カーソルをポインターにする */
+}
+
+/* ボタンのテキスト */
+.btn__text4 {
+  position: absolute;
+  left: 0;
+  display: block;
+  height: 100%; /* 縦幅をボタンと同じにする */
+  width: 100%; /* 横幅をボタンと同じにする */
+  color: #fff; /* 文字色 */
+  font-size: 16px; /* 文字サイズ */
+  font-weight: bold; /* 文字の太さ */
+  text-align: center; /* テキストを中央揃え */
+  transition: all 0.3s; /* アニメーション実行時間 */
+}
+
+/* ボタンのテキスト(デフォルトのテキスト) */
+.btn__text4:nth-child(1) {
+  top: 0;
+}
+
+/* ボタンのテキスト(隠れているテキスト) */
+.btn__text4:nth-child(2) {
+  top: -100%;
+}
+
+/* ボタンホバーアクション */
+.btn4:hover .btn__text4:nth-child(1) {
+  top: 100%;
+}
+
+.btn4:hover .btn__text4:nth-child(2) {
+  top: 0;
+}
+
+.button {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.buttonA {
+  height: 20px;
+  width: 170px;
+  border-radius: 10px;
+  background-color: burlywood;
+  text-align: center;
+}
+
+.SNS {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.fa-user-alien {
+  font-size: 90px;
+}
+
+footer {
+  text-align: center;
+}
+
+.fa-instagram {
+  color: rgb(161, 31, 153);
+  font-size: 60px;
+  margin: 10px;
+}
+
+.fa-twitter {
+  color: rgb(79, 193, 245);
+  font-size: 60px;
+  margin: 10px;
+}
